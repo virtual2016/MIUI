@@ -3,90 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>MIUI官方网站</title>
-    <style>
-        .header_on {
-            height: 49px;
-            background-color: #000000;
-            min-width: 980px;
-        }
-
-        /*MIUI logo的位置*/
-        .miui_logo {
-            position: absolute;
-            width: 46px;
-            height: 17px;
-            /*text-indent: -9999px;*/
-            /*background-image: url(../../images/index_0.png);*/
-            top: 16px;
-            left: 0;
-        }
-
-        .miui_menu {
-            position: absolute;
-            top: 9px;
-            right: 0;
-            width: 600px;
-            height: 30px;
-            text-align: right;
-            /*line-height: 30px;*/
-        }
-
-        body{
-            margin: 0;
-            padding: 0;
-            color: #000000;
-            /*font-family: "FZLTXHJW", "microsoft yahei";*/
-        }
-
-        fieldset, img {
-            border: 0;
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="MIUI官方网站.css">
 </head>
 <body>
 <div class="header_on">
-    <a class="miui_logo" href="/" title="MIUI">MIUI</a>
-    <p class="miui_menu">
-        <a href="http://www.miui.com">首页</a>
-        <a href="http://www.miui.com/zt/miui9/index.html">MIUI 9</a>
-        <a href="http://www.miui.com/download.html">下载</a>
-        <a href="http://www.miui.com/unlock/index.html">解锁</a>
-        <a href="http://www.miui.com/index.html">论坛</a>
-    </p>
+    <div class="header">
+        <a class="miui_logo" href="#" title="MIUI">MIUI</a>
+        <p class="miui_menu">
+            <a class="current" href="http://www.miui.com">首页</a>
+            <a href="http://www.miui.com/zt/miui9/index.html">MIUI 9</a>
+            <a href="http://www.miui.com/download.html">下载</a>
+            <a href="http://www.miui.com/unlock/index.html">解锁</a>
+            <a href="http://www.miui.com/index.html">论坛</a>
+        </p>
+    </div>
 </div>
-<div>
+<div class="picture">
     <a href="http://www.miui.com/thread-10040155-1-1.html" title="MIUI9全新发布">
         <img src="images/activity_54.PNG">
     </a>
 </div>
-<div class="content_body_on">
-    <div class="content_body">
-        <ul class="banners clearfix">
-            <li class="banners_li">
-                <a href="http://www.miui.com/thread-10792059-1-1.html?from=miuiindex">
-                    <img src="https://attach.bbs.miui.com/album/201707/21/114223fkff0edqyfik2knf.jpg">
-                    <h3>MIUI 9稳定版升级</h3>
-                    <p>已支持27款机型</p>
-                </a>
-            </li>
-            <li class="banners_li">
-                <a href="http://www.miui.com/thread-11899461-1-1.html?from=miuiindex">
-                    <img src="https://attach.bbs.miui.com/album/201707/21/121817sz77oo77od13ex78.png">
-                    <h3>MIUI第361周更新公告</h3>
-                    <p>新增 全面屏手势</p>
-                </a>
-            </li>
-            <li class="banners_li">
-                <a href="http://api.bbs.miui.com/app/index/downloadApp?fromguanwang&amp;from=miuiindex&amp;from=miuiindex">
-                    <img src="https://attach.bbs.miui.com/album/201612/16/170252wcq81f2mmcf3c7ce.png">
-                    <h3>MIUI论坛APP邀您体验</h3>
-                    <p>全新改版 更好玩、更好用</p>
-                </a>
-            </li>
-        </ul>
-    </div>
+<div class="banners_body" style="padding: 130px 0px;">
+    <ul>
+        <li class="banners"><a href="http://www.miui.com/thread-10792059-1-1.html?from=miuiindex">
+            <img src="https://attach.bbs.miui.com/album/201707/21/114223fkff0edqyfik2knf.jpg">
+            <div><h3>MIUI 9稳定版升级</h3>
+                <p>已支持27款机型</p></div>
+        </a>
+        </li>
+        <li class="banners">
+            <a href="http://www.miui.com/thread-11899461-1-1.html?from=miuiindex">
+                <img src="https://attach.bbs.miui.com/album/201707/21/121817sz77oo77od13ex78.png">
+                <div><h3>MIUI第361周更新公告</h3>
+                    <p>新增 全面屏手势</p></div>
+            </a>
+        </li>
+        <li class="banners banners_last">
+            <a href="http://api.bbs.miui.com/app/index/downloadApp?fromguanwang&amp;from=miuiindex&amp;from=miuiindex">
+                <img src="https://attach.bbs.miui.com/album/201612/16/170252wcq81f2mmcf3c7ce.png">
+                <div><h3>MIUI论坛APP邀您体验</h3>
+                    <p>全新改版 更好玩、更好用</p></div>
+            </a>
+        </li>
+    </ul>
 </div>
 <div class="footer_on">
     <div class="footer">

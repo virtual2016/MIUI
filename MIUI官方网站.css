@@ -1,0 +1,124 @@
+.header {
+    height: 49px;
+    margin: 0 auto;
+    background: black;
+}
+
+.header_on {
+    background: black;
+}
+
+.banners_body {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+.header {
+    height: 49px;
+    width: 1240px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.miui_logo {
+    position: absolute;
+    width: 46px;
+    height: 17px;
+    text-indent: -9999px;
+    background-image: url(images/index_0.png);
+    top: 16px;
+    left: 0px;
+}
+
+.miui_menu {
+    position: absolute;
+    top: 9px;
+    right: 0px;
+    width: 600px;
+    height: 30px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.miui_menu a {
+    color: #dddddd;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.miui_menu a.current {
+    color: #868686;
+}
+
+.miui_menu a:hover {
+    color: #868686;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-family: "FZLTXHJW", "microsoft yahei";
+}
+
+a {
+    text-decoration: none;
+}
+
+.banners {
+    width: 33.33%;
+}
+
+.banners a {
+    display: block;
+    text-align: center;
+    border-right: 1px solid #E1E1E1;
+}
+
+.banners_last a {
+    border-right: none;
+}
+
+.banners a div {
+    display: inline-block;
+    cursor: pointer;
+    *display: inline;
+    zoom: 1;
+}
+
+.banners a img {
+    margin-right: 24px;
+}
+
+ul li {
+    float: left;
+}
+
+ul {
+    list-style: none;
+}
+.footer_on{
+    height: 160px;
+    background: #fafafa;
+}
+.footer {
+    width: 1240px;
+    margin: 0 auto;
+    padding-top: 60px;
+    border-top: 1px solid #e1e1e1;
+}
+
+.footer_links {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.copyright {
+    line-height: 20px;
+    color: #c5c6c8;
+    font-size: 11px;
+    text-align: center;
+}
